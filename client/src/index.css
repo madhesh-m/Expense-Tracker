@@ -1,0 +1,116 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+ 
+.body{
+  position: fixed;
+}
+.content{
+  padding-right: 4%;
+  height: auto;
+  margin-top: 1px;
+  margin-left: 6%;
+}
+.footer{
+  position:relative;
+  width: 100%;
+  bottom: 0;
+}
+
+.register-page{
+  margin-top: -40%;
+  margin-left: 38%;
+  height: 75vh;
+  border-radius: 5%;
+  width:25%;
+  background-color: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+
+}
+
+
+.filters{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left:5%;
+  width:93%;
+  border:  black;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px ;
+  box-shadow: 0 0 3px gray;
+}
+
+
+/* .switch-icons{
+  box-shadow: 0 0 15px rgba(0,0,0,0.677);
+  border-radius: 5px;
+} */
+.view1{
+  margin-left: 20%;
+}
+.anticon svg{
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon{
+  color: black;
+}
+.inactive-icon{
+  color:gray;
+}
+
+.navbar-brand{
+  margin-left: 36%;
+  font-weight: 500;
+  font-size: 30px;
+  
+}
+
+.navbar-nav{
+  margin-left: 25%;
+}
+
+.nav-link{
+  justify-content: center;
+  font-weight: 300;
+}
+
+.logb{
+  margin-right: 10% ;
+}
+
+.navbar{
+  background-color:bisque;
+}
+
+.bgimg{
+  margin-top: 0 !important;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.imagewrap{
+  margin-top: 0 !important;
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.catcol{
+  height: 100px;
+}
+
+.barspace{
+  justify-content: between;
+}
